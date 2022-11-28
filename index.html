@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VTHBO</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zle8fqo.css" />
+    <link
+      rel="stylesheet"
+      href="styles/mobile.css"
+      media="(max-width: 450px)"
+    />
+    <link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="(min-width: 451px)"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/kdb0mcl.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Secular-one"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-totaal">
+        <div class="header-links">
+          <img class="logo" src="assets/logo-VTHBO.png" alt="logo" />
+        </div>
+        <div class="header-rechts">
+          <div class="header-text">Over</div>
+          <div class="header-text">Blog</div>
+          <div class="header-text">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="profile"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="subheader">
+      <div class="zoekbalk">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="vergrootglas"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          />
+        </svg>
+        <input
+          type="text"
+          placeholder="Zoek op leerdoelen, onderwerpen of studies"
+          class="text-zoekbalk"
+        />
+      </div>
+    </header>
+
+    <nav class="dropdown-totaal">
+      <div class="dropdown-categoriën">
+        <button onclick="myFunctionCategoriën()" class="button-categoriën">
+          Categoriën
+        </button>
+        <nav id="myDropdown-categoriën" class="dropdown-content-categoriën">
+          <ul class="Categoriën">
+            <li>Onderzoeken en begrijpen</li>
+            <li>Leren over jezelf en reflecteren</li>
+            <li>Creatief denken</li>
+            <li>Organiseren en plannen</li>
+            <li>Communiceren en presenteren</li>
+            <li>Leren over anderen</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="dropdown-duur">
+        <!-- <button class="button-duur">Duur</button> -->
+        <button onclick="myFunctionDuur()" class="button-duur">Duur</button>
+        <nav id="myDropdown-duur" class="dropdown-content-duur">
+          <ul class="Duur">
+            <li>&lt;1 uur</li>
+            <li>≥1 uur</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="dropdown-niveau">
+        <button onclick="myFunctionNiveau()" class="button-niveau">Niveau</button>
+        <nav id="myDropdown-niveau" class="dropdown-content-niveau">
+          <ul class="Niveau">
+            <li>Simpel</li>
+            <li>Complex</li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+
+    <div class="sectie-a">
+      <div class="werkvormen">
+        <div class="werkvorm roadmap">
+          <img src="assets/roadmap.webp" alt="roadmap" class="img-werkvorm" />
+        </div>
+        <div class="werkvorm context-map">
+          <img
+            src="assets/context-map.webp"
+            alt="context map"
+            class="img-werkvorm"
+          />
+        </div>
+        <div class="werkvorm common-ground-matrix">
+          <img
+            src="assets/common-ground-matrix.webp"
+            alt="common ground matrix"
+            class="img-werkvorm"
+          />
+        </div>
+        <div class="werkvorm grafisch-inloggen">
+          <img
+            src="assets/grafisch-inloggen.webp"
+            alt="grafisch inloggen"
+            class="img-werkvorm"
+          />
+        </div>
+        <div class="werkvorm sketchnote">
+          <img
+            src="assets/sketchnote.webp"
+            alt="sketchnote"
+            class="img-werkvorm"
+          />
+        </div>
+        <div class="werkvorm een-scene">
+          <img
+            src="assets/een-scene.webp"
+            alt="een scène"
+            class="img-werkvorm"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

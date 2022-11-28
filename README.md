@@ -1,22 +1,10 @@
-> _Fork_ deze leertaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+## Navigatie VTHBO
+De navigatie die ik heb gemaakt heeft een overzichtelijke opbouw. De visuele werkvormen staan in het middenpunt van de pagina, zodat de gebruikers meteen kunnen beginnen met verkennen. Voor docenten die snel een passende werkvorm nodig hebben voor hun les is er een filter. Je kan kiezen tussen de categorie, duur en het niveau van een werkvorm. 
+<br>
+![readme-foto](https://user-images.githubusercontent.com/112855849/195568670-b3c618ee-3982-4a92-a4f4-836c9079ac7e.png)
+![readme-foto-dropdown](https://user-images.githubusercontent.com/112855849/195570295-4d79da3b-612f-4fce-b2ea-80a7d3858814.png)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
-
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
-
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-
-## Bronnen
-
-## Licentie
-
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-This work is licensed under [GNU GPLv3](./LICENSE).
+### Responsive
+Er is ook gedacht aan mobiele gebruikers. Wanneer een kleiner device gebruikt wordt, veranderd de site van twee kolommen naar één enkele kolom.
+<br>
+![readme-foto-responsive](https://user-images.githubusercontent.com/112855849/195565293-a014df68-7580-496c-b9b1-f86987d1e2f4.png)
