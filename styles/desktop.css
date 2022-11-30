@@ -101,7 +101,7 @@ header {
   display: inline-block;
 }
 
-button {
+/* button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -111,6 +111,32 @@ button {
   border-style: none;
   font-size: 16px;
   -webkit-text-fill-color: black;
+} */
+
+button {
+  font-family: rigid-square, sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  padding: 0.75rem 1rem;
+  border: none;
+  color: #090940;
+  background-size: 400%;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.button-categoriën,
+.button-duur,
+.button-niveau {
+  background-image: linear-gradient(90deg, #feb51e 50%, #090940 50%);
+}
+.button-categoriën:hover,
+.button-duur:hover,
+.button-niveau:hover {
+  background-position: right center;
+  transform: scale(1.05);
+  opacity: 0.9;
+  color: #ffffff;
 }
 
 .dropdown-content-categoriën,
@@ -120,7 +146,6 @@ button {
   position: absolute;
   background-color: #f9f9f9;
   width: 15em;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
 }
@@ -147,8 +172,8 @@ li {
   font-family: yrsa, serif;
 }
 
-li:hover {
-  text-decoration: underline;
+label:hover {
+  cursor: pointer;
 }
 
 .sectie-a {
@@ -188,7 +213,5 @@ li:hover {
 }
 
 .img-werkvorm:hover {
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.07);
   cursor: pointer;
 }

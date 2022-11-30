@@ -28,6 +28,10 @@
       rel="stylesheet"
     />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/brx3lyu.css" />
+    <!-- rigid square font -->
+    <link rel="stylesheet" href="https://use.typekit.net/kdb0mcl.css" />
+    <!-- yrsa font -->
   </head>
 
   <body>
@@ -87,12 +91,36 @@
         </button>
         <nav id="myDropdown-categoriën" class="dropdown-content-categoriën">
           <ul class="Categoriën">
-            <li>Onderzoeken en begrijpen</li>
-            <li>Leren over jezelf en reflecteren</li>
-            <li>Creatief denken</li>
-            <li>Organiseren en plannen</li>
-            <li>Communiceren en presenteren</li>
-            <li>Leren over anderen</li>
+            <li>
+              <input type="checkbox" id="check-Onderzoeken-en-begrijpen" />
+              <label for="check-Onderzoeken-en-begrijpen"
+                >Onderzoeken en begrijpen</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="Leren-over-jezelf-en-reflecteren" />
+              <label for="Leren-over-jezelf-en-reflecteren"
+                >Leren over jezelf en reflecteren</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="Creatief-denken" />
+              <label for="Creatief-denken">Creatief denken</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Organiseren-en-plannen" />
+              <label for="Organiseren-en-plannen">Organiseren en plannen</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Communiceren-en-presenteren" />
+              <label for="Communiceren-en-presenteren"
+                >Communiceren en presenteren</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="Leren-over-anderen" />
+              <label for="Leren-over-anderen">Leren over anderen</label>
+            </li>
           </ul>
         </nav>
       </div>
@@ -101,17 +129,31 @@
         <button onclick="myFunctionDuur()" class="button-duur">Duur</button>
         <nav id="myDropdown-duur" class="dropdown-content-duur">
           <ul class="Duur">
-            <li>&lt;1 uur</li>
-            <li>≥1 uur</li>
+            <li>
+              <input type="checkbox" id="minder-uur" />
+              <label for="minder-uur">&lt;1 uur</label>
+            </li>
+            <li>
+              <input type="checkbox" id="meer-uur" />
+              <label for="meer-uur">&ge;1 uur</label>
+            </li>
           </ul>
         </nav>
       </div>
       <div class="dropdown-niveau">
-        <button onclick="myFunctionNiveau()" class="button-niveau">Niveau</button>
+        <button onclick="myFunctionNiveau()" class="button-niveau">
+          Niveau
+        </button>
         <nav id="myDropdown-niveau" class="dropdown-content-niveau">
           <ul class="Niveau">
-            <li>Simpel</li>
-            <li>Complex</li>
+            <li>
+              <input type="checkbox" id="Simpel" />
+              <label for="Simpel">Simpel</label>
+            </li>
+            <li>
+              <input type="checkbox" id="Complex" />
+              <label for="Complex">Complex</label>
+            </li>
           </ul>
         </nav>
       </div>
