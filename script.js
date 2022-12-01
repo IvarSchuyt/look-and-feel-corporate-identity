@@ -6,20 +6,20 @@ function myFunctionCategoriën() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".button-categoriën")) {
-    var dropdowns = document.getElementsByClassName(
-      "dropdown-content-categoriën"
-    );
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-};
+// window.onclick = function (event) {
+//   if (!event.target.matches(".button-categoriën")) {
+//     var dropdowns = document.getElementsByClassName(
+//       "dropdown-content-categoriën"
+//     );
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains("show")) {
+//         openDropdown.classList.remove("show");
+//       }
+//     }
+//   }
+// };
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -28,18 +28,18 @@ function myFunctionDuur() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".button-duur")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content-duur");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-};
+// window.onclick = function (event) {
+//   if (!event.target.matches(".button-duur")) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content-duur");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains("show")) {
+//         openDropdown.classList.remove("show");
+//       }
+//     }
+//   }
+// };
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunctionNiveau() {
@@ -47,15 +47,15 @@ function myFunctionNiveau() {
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function (event) {
-  if (!event.target.matches(".button-niveau")) {
-    var dropdowns = document.getElementsByClassName("dropdown-content-niveau");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains("show")) {
-        openDropdown.classList.remove("show");
-      }
-    }
-  }
-};
+// window.onclick = function (event) {
+//   if (!event.target.matches(".button-niveau")) {
+//     var dropdowns = document.getElementsByClassName("dropdown-content-niveau");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains("show")) {
+//         openDropdown.classList.remove("show");
+//       }
+//     }
+//   }
+// };
