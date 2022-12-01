@@ -6,6 +6,33 @@ body {
   margin: 0px;
 }
 
+h1 {
+  font-size: 63.15px;
+}
+
+h2 {
+  font-size: 47.37px;
+}
+
+h3 {
+  font-size: 35.54px;
+}
+
+h4 {
+  font-size: 26.66px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
 header {
   z-index: 999;
   height: 5em;
@@ -33,10 +60,9 @@ header {
 }
 
 .logo {
-  scale: 125%;
   position: absolute;
   margin: auto 0;
-  padding: 1em 0em 0em 3em;
+  padding: 1em 0em 0em 2.5em;
 }
 
 .header-text {
@@ -48,6 +74,7 @@ header {
 .profile {
   height: 2.5em;
   width: 2.5em;
+  padding-right: 1.5em;
 }
 
 .subheader {
@@ -67,8 +94,8 @@ header {
 }
 
 .vergrootglas {
-  height: 2.5em;
-  width: 2.5em;
+  height: 2em;
+  width: 2em;
   color: black;
   padding-right: 1em;
 }
