@@ -46,7 +46,7 @@ header {
 }
 
 .header-text:hover {
-  text-decoration: underline 1px black;
+  cursor: pointer;
 }
 
 .profile {
